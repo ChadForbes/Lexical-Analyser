@@ -7,7 +7,7 @@ public class Interpreter
 	{
 		try
 		{
-			Parser p = new Parser ("test4.lua");
+			Parser p = new Parser ("src/test4.lua");
 			Program prog = p.parse();
 			prog.execute();
 		}
